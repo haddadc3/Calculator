@@ -1,0 +1,50 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: bisque;
+}
+
+button {
+  border: none;
+  border-radius: 20px;
+  width: 50px;
+  height: 50px;
+  color: white;
+  background-color: black;
+  font-weight: bold;
+  font-size: large;
+}
+
+button:hover {
+  background-color: hwb(0 17% 82%);
+  cursor: pointer;
+}
+
+.keys {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5px;
+  padding: 25px;
+}
+
+.keys_greater {
+  max-width: 300px;
+  background-color: rgb(60, 60, 60);
+}
+
+#disp input {
+  border: 5px solid black;
+  width: 285px;
+  font-size: 3rem;
+  background-color: rgb(197, 197, 197);
+}
+
+.operation{
+  background-color: hsl(39, 100%, 40%);
+}
+
+.operation:hover{
+  background-color: hsl(39, 50%, 40%);
+}
